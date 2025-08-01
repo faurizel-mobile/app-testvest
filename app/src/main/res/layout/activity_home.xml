@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C00BCD4"
+    android:contentDescription="Matematica"
+    android:contextClickable="false"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:context=".HomeActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="83dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:srcCompat="@drawable/ic_matematica" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="TestVest"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="monospace"
+        android:text="Prepare-se para o vertibular!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="24dp"
+        android:text="Iniciar Simulado"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Configurações"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Ver desempenho"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Estude. Supere. Pratique."
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="84dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="32dp"
+        android:text="Matérias"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="93dp"
+        android:layout_height="88dp"
+        android:contentDescription="Matematica"
+        android:contextClickable="true"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="93dp"
+        android:layout_height="88dp"
+        android:contentDescription="Matematica"
+        android:contextClickable="true"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="83dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:srcCompat="@drawable/fisica" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="83dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="650dp"
+        tools:srcCompat="@drawable/fisica" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
